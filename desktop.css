@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+body {
+  text-align: left;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -31,29 +35,34 @@ html {
 }
 
 .daniel {
+  display: block;
   grid-area: daniel;
   background-color: rgb(115, 63, 200);
   color: white;
 }
 
 .jonathan {
+  display: block;
   grid-area: jonathan;
   background-color: rgb(72, 84, 107);
   color: white;
 }
 
 .kira {
+  display: block;
   grid-area: kira;
   background-color: rgb(255, 255, 255);
 }
 
 .jeanette {
+  display: block;
   grid-area: jeanette;
   background-color: rgb(255, 255, 255);
   color: black;
 }
 
 .patrick {
+  display: block;
   grid-area: patrick;
   background-color: rgb(24, 31, 44);
   color: white;
