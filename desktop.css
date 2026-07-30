@@ -27,25 +27,28 @@ body {
 
 .testimonials {
   display: grid;
-  grid-template-columns: 2fr 2fr 1fr;
-  grid-template-rows: auto 200px auto;
   gap: 0.7rem;
   grid-template-areas:
-    "daniel jonathan kira"
-    "jeanette patrick kira";
+    "daniel daniel jonathan kira"
+    "jeanette patrick patrick kira";
 }
 
 .daniel {
+  grid-area: daniel;
 }
 
 .jonathan {
+  grid-area: jonathan;
 }
 
 .kira {
+  grid-area: kira;
 }
 
 .jeanette {
+  grid-area: jeanette;
 }
 
 .patrick {
+  grid-area: patrick;
 }
