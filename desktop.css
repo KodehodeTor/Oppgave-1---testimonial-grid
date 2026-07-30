@@ -10,10 +10,6 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  text-align: center;
-}
-
 .box {
   background-color: lightblue;
   color: black;
@@ -61,4 +57,8 @@ body {
   grid-area: patrick;
   background-color: rgb(24, 31, 44);
   color: white;
+}
+
+.profilePic {
+  border-radius: 100px;
 }
