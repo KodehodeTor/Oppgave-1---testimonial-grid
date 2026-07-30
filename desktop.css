@@ -9,6 +9,9 @@
 body {
   text-align: left;
   font-size: 13px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 html {
