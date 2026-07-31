@@ -54,12 +54,15 @@ html {
   grid-area: jonathan;
   background-color: rgb(72, 84, 107);
   color: white;
+  width: 350px;
 }
 
 .kira {
   display: block;
   grid-area: kira;
   background-color: rgb(255, 255, 255);
+  width: 380px;
+  padding: 50px;
 }
 
 .jeanette {
@@ -67,6 +70,7 @@ html {
   grid-area: jeanette;
   background-color: rgb(255, 255, 255);
   color: black;
+  width: 350px;
 }
 
 .patrick {
