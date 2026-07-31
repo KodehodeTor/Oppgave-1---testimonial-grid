@@ -28,7 +28,7 @@ html {
   justify-content: center;
   border-radius: 10px;
   padding: 25px;
-  box-shadow:;
+  box-shadow: 20px 20px 40px #aaa;
 }
 
 .testimonials {
@@ -77,6 +77,7 @@ html {
 }
 
 .profilePic {
+  margin-top: 15px;
   border-radius: 100px;
   max-width: 300px;
   height: auto;
@@ -94,11 +95,11 @@ html {
   top: 0;
   right: 70px;
   z-index: 0;
-  height: 120px;
+  height: 140px;
 }
 
 .title_wrapper {
-  padding: 20px 15px 0 0;
+  margin-top: 15px;
 }
 
 h1 {
@@ -112,7 +113,7 @@ h2 {
 }
 
 h3 {
-  margin-top: 30px;
+  margin-top: 20px;
   position: relative;
   font-size: 1.8rem;
   padding-bottom: 15px;
