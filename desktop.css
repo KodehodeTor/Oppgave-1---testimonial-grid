@@ -13,7 +13,6 @@ body {
   font-weight: 500;
   font-style: normal;
   background-color: #f5f4f4;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,7 +31,7 @@ html {
   align-items: center;
   justify-content: center;
   border-radius: 10px;
-  padding: 25px;
+  padding: 50px;
   box-shadow: 20px 20px 40px #aaa;
 }
 
@@ -86,7 +85,6 @@ html {
 }
 
 .profilePic {
-  margin-top: 15px;
   border-radius: 100px;
   max-width: 300px;
   height: auto;
@@ -105,10 +103,6 @@ html {
   right: 70px;
   z-index: 0;
   height: 140px;
-}
-
-.title_wrapper {
-  margin-top: 15px;
 }
 
 h1 {
