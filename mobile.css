@@ -1,0 +1,120 @@
+/* CSS Reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: left;
+  font-size: 13px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  background-color: #f5f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CARD/BOX */
+.box {
+  background-color: lightblue;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 50px;
+  box-shadow: 20px 20px 40px #aaa;
+  width: 490px;
+}
+
+.testimonials {
+  height: 900px;
+  width: 1600px;
+  display: grid;
+  gap: 3rem;
+}
+
+.daniel {
+  position: relative;
+  display: block;
+  background-color: rgb(115, 63, 200);
+  color: white;
+}
+
+.jonathan {
+  display: block;
+  background-color: rgb(72, 84, 107);
+  color: white;
+}
+
+.kira {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  padding: 50px;
+}
+
+.jeanette {
+  display: block;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+
+.patrick {
+  display: block;
+  background-color: rgb(24, 31, 44);
+  color: white;
+}
+
+.profilePic {
+  border-radius: 100px;
+  max-width: 300px;
+  height: auto;
+}
+
+.pic_title {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 20px;
+}
+
+.quote {
+  display: none;
+}
+
+/* CARD TEXT */
+
+h1 {
+  font-size: 1.2rem;
+  font-weight: 450;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+h3 {
+  margin-top: 20px;
+  position: relative;
+  font-size: 1.7rem;
+  padding-bottom: 15px;
+  font-weight: 600;
+  z-index: 1;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
