@@ -23,6 +23,7 @@ html {
   scroll-behavior: smooth;
 }
 
+/* CARD/BOX */
 .box {
   background-color: lightblue;
   color: black;
@@ -104,6 +105,8 @@ html {
   z-index: 0;
   height: 160px;
 }
+
+/* CARD TEXT */
 
 h1 {
   font-size: 1.2rem;
