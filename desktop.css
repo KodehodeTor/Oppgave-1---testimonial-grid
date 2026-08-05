@@ -132,3 +132,29 @@ p {
   font-size: 1.3rem;
   font-weight: 400;
 }
+
+/* Media Queries - mobile */
+
+@media (max-width: 600px) {
+  .testimonials {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "daniel"
+      "jonathan"
+      "jeanette"
+      "patrick"
+      "kira";
+  }
+  .jonathan,
+  .jeanette,
+  .kira {
+    width: 100%;
+  }
+  .quote {
+    position: absolute;
+    top: 0;
+    right: 70px;
+    z-index: -10;
+    height: 160px;
+  }
+}
